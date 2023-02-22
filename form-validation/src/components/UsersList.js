@@ -8,7 +8,7 @@ export const UsersList = (props) => {
       {users.map((user) => {
         return (
           <UserCard
-            key={Math.random()}
+            key={users.name}
             user={user}
             isEdit={isEdit}
             onEditUser={onEditUser}
